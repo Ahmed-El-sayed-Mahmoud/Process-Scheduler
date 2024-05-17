@@ -1,0 +1,119 @@
+body {
+  background-image: url("bgImg.png");
+  font-family: "Poppins", sans-serif;
+}
+.form {
+  --width-of-input: 300px;
+  --border-height: 2px; 
+  --border-before-color: rgba(221, 221, 221, 0.39);
+  --border-after-color: #5891ff;
+  --input-hovered-color: #4985e01f;
+  position: relative;
+  width: var(--width-of-input);
+}
+
+.input {
+  border-radius: 10px;
+  outline: 2px solid #d455ff;
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #e2e2e2;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+  margin-top: 220px;
+  margin-left: 270px;
+}
+
+.input:focus {
+  outline-offset: 5px;
+  background-color: #fff;
+}
+
+button {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  width: 95.02px;
+  height: 42.66px;
+  border: none;
+  background-color: #3653f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 20px; 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+  margin-left: 240px;
+}
+
+button .span-mother {
+  display: flex;
+  overflow: hidden;
+}
+
+button:hover .span-mother {
+  position: absolute;
+}
+
+button:hover .span-mother span {
+  transform: translateY(1.2em);
+}
+
+button .span-mother span:nth-child(1) {
+  transition: 0.2s;
+}
+
+button .span-mother span:nth-child(2) {
+  transition: 0.3s;
+}
+
+button .span-mother span:nth-child(3) {
+  transition: 0.4s;
+}
+
+button .span-mother span:nth-child(4) {
+  transition: 0.5s;
+}
+
+button .span-mother span:nth-child(5) {
+  transition: 0.6s;
+}
+
+button .span-mother2 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+button .span-mother2 span {
+  transform: translateY(-1.2em);
+}
+
+button:hover .span-mother2 span {
+  transform: translateY(0);
+}
+
+button .span-mother2 span {
+  transition: 0.2s;
+}
+
+button .span-mother2 span:nth-child(2) {
+  transition: 0.3s;
+}
+
+button .span-mother2 span:nth-child(3) {
+  transition: 0.4s;
+}
+
+button .span-mother2 span:nth-child(4) {
+  transition: 0.5s;
+}
+
+button .span-mother2 span:nth-child(5) {
+  transition: 0.6s;
+}
